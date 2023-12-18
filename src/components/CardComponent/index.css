@@ -1,0 +1,28 @@
+.react-task-image {
+    width: 250px;
+    height: 320px;
+    border-bottom: 1px solid black;
+}
+
+.item-container {
+    border: 1px solid black;
+    margin-right: 15px;
+    background-color: lightblue;
+    margin-bottom: 7px;
+}
+
+.item-description {
+    font-family: "Roboto";
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.card-desc {
+    color: blue;
+}
+
+@media screen and (max-width: 1024px){
+    .item-container {
+        margin-bottom: 15px;
+    }
+}
